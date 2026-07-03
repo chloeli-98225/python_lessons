@@ -1,0 +1,15 @@
+# input
+# name = input('請輸入名字：')
+
+# print('您好', name)
+
+age = input('請問你的年齡是：')
+age = int(age)
+
+current_year = 2024
+birth_year = current_year - age
+print('你的出生年是：', birth_year)
+
+#計算民國年
+民國年 = birth_year - 1911 
+print('你的出生民國年是：' , 民國年)
