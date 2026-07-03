@@ -1,0 +1,15 @@
+import random
+
+ans = random.randint(1,100)
+
+while True:
+	user_input = int(input('請猜數字:'))
+	if user_input == ans:
+		print('Bingo!')
+		break
+	
+	elif user_input < ans:
+		print('太小了！')
+	
+	else:
+		print('太大了！')
