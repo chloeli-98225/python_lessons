@@ -1,0 +1,20 @@
+# for 迴圈
+
+#算出清單總值
+
+nums = [12,48,17]
+total = 0
+
+for n in nums:
+	total = total + n
+	
+print(total)
+
+
+#5-2 程式練習題
+#寫一個程式跟清單裡的人say hi
+
+students = ['allen','tom','mayday','jj','jolin','jay','jam']
+
+for s in students:
+	print('Hi',s)
