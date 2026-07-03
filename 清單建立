@@ -1,0 +1,24 @@
+# list 清單
+
+x = [123123, 123456] #整數、字串、布林值等等都可以放在[]（清單）裡
+print(x)
+
+cars = ['toyota','honda' ] #toyota 為索引(intax) 0. honda 為索引(intax) 1
+
+print(cars[0])
+print(cars[1])
+
+cars.append('audi') #清單[]才有append功能
+cars.append('BMW')
+
+print(cars)
+print(len(cars)) #len=length長度的意思，這樣會印出 4（清單裡有四個字串）
+print('audi' in cars) #問清單裡有沒有audi?有的話會出現 true
+print('benz' in cars)
+
+
+
+
+#轉換為小寫功能
+x = 'HIHIHI'
+print(x.lower())
