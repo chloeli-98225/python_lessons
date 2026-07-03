@@ -1,0 +1,25 @@
+# height = input('請輸入長度：')
+# wide = input('請輸入寬度：')
+# print('面積是：',int(height) * int(wide))
+
+height = input('請輸入長度：')
+height = float(height)
+
+wide = input('請輸入寬度：')
+wide = float(wide)
+
+area = height * wide
+
+print('面積是：',area)
+
+
+
+#也可以寫成以下這樣
+
+height = float(input('請輸入長度：'))
+
+wide = float(input('請輸入寬度：'))
+
+area = height * wide
+
+print('面積是：',area)
